@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" parallel="methods" thread-count="4">
+
+    <!-- Test 1 -->
+    <test name="Test Group 1">
+        <classes>
+            <class name="OrangeHRMTest" />
+        </classes>
+    </test>
+
+</suite>
